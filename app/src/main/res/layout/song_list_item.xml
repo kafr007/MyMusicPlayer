@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="@dimen/padding_medium"
+    xmlns:tools="http://schemas.android.com/tools" >
+
+    <LinearLayout
+        android:layout_width="@dimen/height_width_0"
+        android:layout_height="wrap_content"
+        android:layout_weight="8"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Track_name"
+            android:textSize="@dimen/font_size_medium"
+            android:id="@+id/track_name_textview"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Artist"
+            android:textSize="@dimen/font_size_small"
+            android:id="@+id/artist_name_textview" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="@dimen/height_width_0"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        tools:text="duration"
+        android:textSize="@dimen/font_size_small"
+        android:id="@+id/duration_textview"
+        />
+
+</LinearLayout>
